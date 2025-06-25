@@ -136,7 +136,7 @@ const NicknameTable: React.FC<NicknameTableProps> = ({ onEntriesChange, resetTri
       setEntries(initialEntries);
       onEntriesChange(initialEntries);
     }
-  }, [resetTrigger, onEntriesChange]);
+  }, [resetTrigger]);
 
   const handleInputChange = (id: number, value: string) => {
     const updatedEntries = entries.map(entry => 

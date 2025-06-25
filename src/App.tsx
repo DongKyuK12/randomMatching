@@ -186,6 +186,7 @@ function App() {
 
   const handleResetMatching = () => {
     setEntries([]);
+    setResults([]);
     setResetTrigger(prev => prev + 1);
   };
 
